@@ -1,0 +1,205 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.box {
+   margin-top: -10px;
+   margin-left: -10px;
+   margin-right: -8px;
+   height: 70px;
+   border-bottom-left-radius: 25px;
+   border-bottom-right-radius: 25px;
+   background-color: #bf1a5fa5;
+   border-left: 2px solid hsla(320, 92%, 35%, 0.894);
+   border-right: 2px solid #bf1a5f;
+   border-bottom: 2px solid rgb(191, 26, 75);
+ }
+ button {
+   color: white;
+   font-weight: 600;
+   font-size: 1.25rem;
+   margin-top: 15px;
+   height: 50px;
+   border-radius: 30px;
+   background-color: hsl(197, 78%, 60%);
+   display: inline-block;
+   margin-left: 30px;
+   border-top: 2px solid hsl(214, 78%, 60%);
+   border-left: 2px solid rgb(73, 174, 233);
+   border-right: 2px solid rgb(73, 174, 233);
+   border-bottom: 2px solid hsl(214, 78%, 60%);
+ } 
+ .row {
+   height: 50px;
+   display: flex;
+ }
+ h2 {
+   margin-top: 15px;
+   padding-top: 0px;
+   margin-left: 100px;
+   text-align: center;
+   color: white;
+ }
+ .loadinggif {
+   margin-top: 18%;
+   margin-left: 48%;
+ }
+ .profiles {
+   float: left !important;
+   width: 30% !important;
+ }
+ .avengers {
+   max-width: 200px;
+   margin: 10px 5px;
+   text-align: center;
+   font-family: 'Times New Roman';
+   padding: 15px;
+   background-color: white;
+   margin-left: 100px;
+   border-top: 2px solid #bf1a5fa5;
+   border-left: 2px solid #bf1ab1;
+   border-right: 2px solid rgb(191, 26, 163);
+   border-bottom: 2px solid rgb(191, 26, 191);
+   border-radius: 20px;
+   box-shadow: 1px 2px 9px #f9086cb0;
+ }
+ img {
+   border-radius: 50px;
+   overflow-wrap: anywhere;
+ }
+ .email {
+   color: rgb(123, 3, 179);
+   font-size: 18px;
+   overflow-wrap: anywhere;
+ }
+ .name {
+   font-size: 25px;
+   color: rgb(50, 2, 171);
+   font-weight: bold;
+ }
+.users {
+  max-width: 200px;
+  margin: 10px 5px;
+  text-align: center;
+  font-family: 'Times New Roman';
+  padding: 15px;
+  background-color: white;
+  margin-left: 100px;
+  border-top: 2px solid rgb(191, 26, 163);
+  border-left: 2px solid rgb(117, 26, 191);
+  border-right: 2px solid rgb(117, 26, 191);
+  border-bottom: 2px solid rgb(26, 56, 191);
+  border-radius: 20px;
+  box-shadow: 1px 2px 9px rgba(108, 8, 249, 0.692); 
+}
+img {
+  border-radius: 40px;
+  overflow-wrap: anywhere;
+}
+.email {
+  color: rgb(123, 3, 179);
+  font-size: 18px;
+  overflow-wrap: anywhere;
+}
+.name {
+  font-size: 25px;
+  color: rgb(50, 2, 171);
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 1024px) {
+  .card {
+    float: left !important;
+    width: 33% !important;
+  }
+  button{
+   margin-left: 900px;
+  }
+}
+ @media only screen and (min-width: 1024px) {
+   .card {
+     float: left !important;
+     width: 33% !important;
+   }
+   button{
+    margin-left: 900px;
+   }
+
+ }
+
+ /*#include <bits/stdc++.h>
+using namespace std;
+int main() {
+   int T;
+   cin>>T;
+   while(T--){
+    long long int X,Y;
+    long long int c=0;
+    cin>>X>>Y;
+    if(X==Y){
+        cout<<X+c<<endl;
+    }
+    else if(X>Y || X<Y){
+        int d=X-Y;
+        c=abs(d);
+        c=c/2;
+        c++;
+        cout<<c+X+Y-1<<endl;
+    }else if(X%2!=0 && Y%2!=0){
+        cout<<-1<<endl;
+    }
+       
+   }
+}*/
+/*
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+   int T;
+   cin>>T;
+   while(T--){
+    long long int X,N;
+    cin>>X>>>N;
+    int a[2]={0,1}
+    if(X==1){
+        cout<<0<<endl;
+    }else if(a==1 && X!=N){
+        X+=1;
+    }
+   }
+}
+*/
