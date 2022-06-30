@@ -1,0 +1,105 @@
+.App {
+    text-align: center;
+    background-color: #a9d7e9;
+    margin: 0;
+	  padding: 0;
+	  font-family: sans-serif;
+}
+.heading {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 32px;
+	color: #fff;
+  font-weight: 100;
+  font-size: 60px;
+  color: hsl(180, 3%, 6%);
+  font-family:Arial, Helvetica, sans-serif
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+ .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} 
+.App-link {
+  color: #61dafb;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container p{
+  font-weight: 500;
+  font-size: 70px;
+  color: hsl(180, 3%, 6%);
+}
+#form{
+  justify-content: center;
+}
+.name input{
+  width: 100%;
+  height: 25px;
+  border-radius: 5px;
+  border: 0;
+}
+.email input{
+  width: 100%;
+  height: 25px;
+  border-radius: 5px;
+  border: 0;
+}
+.website input{
+  width: 100%;
+  height: 25px;
+  border-radius: 5px;
+  border: 0;
+}
+.image input{
+  width: 100%;
+  height: 25px;
+  border-radius: 5px;
+  border: 0;
+}
+.btn btn-primary me-4{
+  padding: 10px 15px;
+  margin: 55px;
+  border-radius: 8px;
+  color: white;
+  background-color: hsl(197, 80%, 53%);
+  text-decoration: none;
+  border: none;
+  font-size: 20px;
+}
+.btn{
+  padding: 10px 15px;
+  margin: 55px;
+  border-radius: 8px;
+  color: white;
+  background-color: hsl(197, 80%, 53%);
+  text-decoration: none;
+  border: none;
+  font-size: 20px;
+}
+.row1{
+  border-radius: 20px;
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-color: pink;
+  margin-left: 60px;
+}
+
