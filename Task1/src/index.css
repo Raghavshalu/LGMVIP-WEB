@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(image.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App {
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: 50px;
+}
+.title {
+  font-size: 3rem;
+  padding: 0px 20px 0px 20px;
+  background-color: rgb(242, 255, 123);
+  border-radius: 10px;
+  border: 2px solid black;
+  color: #1b1b1b;
+  font-family: "Covered By Your Grace", cursive;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+.todoapp-box {
+  /* align-items: center; */
+  margin: 2rem 0;
+  padding: 2rem 0;
+  background: var(--color3);
+  border-radius: 5px;
+  /* -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px; */
+}
+.todoapp-inputarea {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.todoapp-inputarea input {
+  padding: 0.8em 1.3em 0.8em 0.9em;
+  font-size: 1rem;
+  margin: 0 0.5rem 0 0;
+  border: none;
+  outline: none;
+  font-family: var(--Open-Sans);
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+.todoapp-addtask {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-size: 17px;
+  padding: 0.8em 1.3em 0.8em 0.9em;
+  color: #FFFFFF;
+  background: #ad5389;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  border: none;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+button span {
+  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+.todoapp-addtask:hover span {
+  transform: translateX(7px);
+}
+.todoapp-todolistbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.todo {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0.5rem;
+  color: #FFFFFF;
+  background: #2980b9;
+  background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);
+  background: linear-gradient(to right, #2c3e50, #2980b9);
+  margin: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  text-align: left;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+/* .todo-buttons {
+  display: flex;
+  align-items: center;
+} */
+.todoapp-todolistbox ul{
+  margin-top: 0.5px;
+  font-size: 1.5rem;
+}
+.todoapp-todolistbox ul li {
+  list-style: none;
+  margin-bottom: 4px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 5px;
+  margin-left: -100px;
+  background-color: rgb(236, 236, 236, 0.6);
+  font-family: "Permanent Marker", cursive;
+  color: black;
+}
+.todoapp-todolistbox.iconsWrap {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  width: auto;
+  display: inline-block;
+}
+.iconsWrap span {
+  display: inline-block;
+  margin: 0px 10px 0 10px;
+  cursor: pointer;
+  color: #00ff89;
+}
+.iconsWrap span.complete{
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.iconsWrap span:focus-visible {
+  outline: none;
+}
+.iconsWrap span:focus-visible {
+  outline: none;
+}
+.iconsWrap span:hover {
+  color: yellow;
+}
